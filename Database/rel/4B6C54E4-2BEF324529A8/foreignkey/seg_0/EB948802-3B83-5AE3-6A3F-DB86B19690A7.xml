@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="EB948802-3B83-5AE3-6A3F-DB86B19690A7" containerWithKeyObject="B92E88F7-6D8F-B6BE-B723-6F05CCFAF0C0" localFKIndex="A3427A13-3978-4B80-E0C1-20B74D98C84E" name="SubjectTitle_SUBJECT_FK">
+<createdBy>Y500</createdBy>
+<createdTime>2018-04-21 08:18:17 UTC</createdTime>
+<comment>A title must have one or many subjects.&lt;br/&gt;A subject must have one or many titles.</comment>
+<generatorID>B97A1BA1-70F7-7F0F-AC75-78E1831499ED</generatorID>
+<ownerDesignName>Assingment1</ownerDesignName>
+<referredTableLongName>SUBJECT</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>3BE8F556-6414-214E-D01C-964F4EA4D6F0</referredTableID>
+<keyObject>4198C3C0-EE47-E322-A233-F9AFB7DDE092</keyObject>
+<referredKeyID>4198C3C0-EE47-E322-A233-F9AFB7DDE092</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>SubjectName</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

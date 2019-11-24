@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="A761E050-1904-4CAD-2BB2-930287442341" containerWithKeyObject="0E342BCF-36B7-0A33-CB4C-449CB58301E4" localFKIndex="80E98CB3-3B44-7A01-163D-8AEB7E3C3D94" name="AuthorTitle_TITLE_FK">
+<createdBy>Y500</createdBy>
+<createdTime>2018-04-21 08:18:17 UTC</createdTime>
+<comment>A title must have one or many authors.&lt;br/&gt;An author must have one or many titles.</comment>
+<generatorID>F80F6FFF-4F9B-E763-581D-7BD95A2F8191</generatorID>
+<ownerDesignName>Assingment1</ownerDesignName>
+<referredTableLongName>TITLE</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>7332F8B4-60FF-0400-4CF7-5FA70DE8869C</referredTableID>
+<keyObject>6EB6C280-E2FE-E7B8-D818-A927E662A662</keyObject>
+<referredKeyID>6EB6C280-E2FE-E7B8-D818-A927E662A662</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>CallNo</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

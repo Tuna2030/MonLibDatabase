@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="91F03B07-E232-A5A4-7706-598B8D14C6C5" containerWithKeyObject="E77A6BD7-2CE8-9936-E308-03915B4E6F0A" localFKIndex="79AA81A3-E6C4-F217-B5A7-FEACC499A0FB" name="BOOKCOPY_IDENTIFIER_FK">
+<createdBy>Y500</createdBy>
+<createdTime>2018-04-21 08:18:17 UTC</createdTime>
+<comment>An ISBN can have one or many book copies.&lt;br/&gt;A book copy must have only one ISBN.</comment>
+<generatorID>83DCDF4A-A582-E952-4526-F6157B096963</generatorID>
+<ownerDesignName>Assingment1</ownerDesignName>
+<referredTableLongName>IDENTIFIER</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>06F0E0AF-DCD4-E3DE-EF49-5CDC4F60B632</referredTableID>
+<keyObject>EACB5CCD-08A6-4A53-7980-1DA567232D28</keyObject>
+<referredKeyID>EACB5CCD-08A6-4A53-7980-1DA567232D28</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ISBN</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

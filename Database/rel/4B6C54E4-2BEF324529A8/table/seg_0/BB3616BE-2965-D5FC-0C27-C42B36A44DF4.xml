@@ -1,0 +1,174 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="BB3616BE-2965-D5FC-0C27-C42B36A44DF4" name="BURROWER">
+<createdBy>Y500</createdBy>
+<createdTime>2018-04-21 08:18:17 UTC</createdTime>
+<generatorID>B0F2FE5D-509B-7D80-FE43-036D6B4C416D</generatorID>
+<ownerDesignName>Assingment1</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Burrowerid" id="7B338B92-E2F7-6235-2CB1-B779FBF7558B">
+<createdBy>Y500</createdBy>
+<createdTime>2018-04-21 08:18:17 UTC</createdTime>
+<comment>Burrower id is recorded in this attribute.</comment>
+<generatorID>8F793CB1-15A1-208B-190D-CA859276E08A</generatorID>
+<ownerDesignName>Assingment1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="BurrowerName" id="B95EBCB5-777B-C862-5E26-957667B7CD90">
+<createdBy>Y500</createdBy>
+<createdTime>2018-04-21 08:18:17 UTC</createdTime>
+<comment>Burrower name is recorded in this attribute.</comment>
+<generatorID>3F8BC826-223E-A117-BEB7-823669B2E3C9</generatorID>
+<ownerDesignName>Assingment1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="BurrowerAddress" id="9F0F55C5-1F2F-459F-50D6-243B1EFC7692">
+<createdBy>Y500</createdBy>
+<createdTime>2018-04-21 08:18:17 UTC</createdTime>
+<comment>Burrower address is recorded in this attribute.</comment>
+<generatorID>C59A0B85-F3F7-B560-8AB4-2CEBF0AED23B</generatorID>
+<ownerDesignName>Assingment1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="BurrowerHomeBranch" id="BF033695-2A91-0A1C-AE4F-7C7E304E3E95">
+<createdBy>Y500</createdBy>
+<createdTime>2018-04-21 08:18:17 UTC</createdTime>
+<comment>Burrower home branch id is recorded in this attribute.</comment>
+<generatorID>12C357B3-67CD-8610-7CA5-0B3B1EFED8E4</generatorID>
+<ownerDesignName>Assingment1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="BurrowerPhone" id="FA8154EA-9342-EDDA-693A-9CDF176A76F8">
+<createdBy>Y500</createdBy>
+<createdTime>2018-04-21 08:18:17 UTC</createdTime>
+<comment>Burrower phone number is recorded in this attribute.</comment>
+<generatorID>D718D657-CE13-1979-1F4D-FCAFA6BC4F3E</generatorID>
+<ownerDesignName>Assingment1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>13</dataTypeSize>
+<ownDataTypeParameters>13,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="BurrowerEmail" id="3933E9A3-6EBB-E8A0-A570-079A4EE51B60">
+<createdBy>Y500</createdBy>
+<createdTime>2018-04-21 08:18:17 UTC</createdTime>
+<comment>Burrower e-mail is recorded in this attribute.</comment>
+<generatorID>F1278050-3EF8-90BD-A343-9A508FC5A066</generatorID>
+<ownerDesignName>Assingment1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Flagged" id="1D1B7373-0CEE-F6E4-CBDB-CA308E8394DB">
+<createdBy>Y500</createdBy>
+<createdTime>2018-04-21 08:18:17 UTC</createdTime>
+<comment>Burrower flag status is recorded in this attribute. Default value is 1, if the burrower does not return the loaned book in time. Value will change to 0 and burrower will not be allowed to loan more books until fine payment.</comment>
+<generatorID>E595053D-6667-805B-E948-5D216FF14126</generatorID>
+<ownerDesignName>Assingment1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>1</dataTypePrecision>
+<defaultValue>1</defaultValue>
+<ownDataTypeParameters>,1,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="BRANCH_Branchid" id="4A0E8CA7-71CC-ABF3-AFED-4946812D106C">
+<createdBy>Y500</createdBy>
+<createdTime>2018-04-21 08:18:17 UTC</createdTime>
+<comment>Each brach has unique branchid which starts from 100 and increments by 1 for each new row.</comment>
+<generatorID>E3ECF983-15C0-9756-078F-C2C5E5CC3738</generatorID>
+<ownerDesignName>Assingment1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B7A44D35-43D8-6007-5584-E66A184593B0" referredColumn="F62479CD-CF43-2300-ED27-1C64BD30F888"/>
+</associations>
+</Column>
+<Column name="CLASSIFICATION_Classid" id="D344D610-C297-F8F3-98F4-07FB6C981F26">
+<createdBy>Y500</createdBy>
+<createdTime>2018-04-21 08:18:17 UTC</createdTime>
+<comment>Classification id is stored in this attribute.</comment>
+<generatorID>B534FFBE-A43E-4049-207E-5AF89E9BB87F</generatorID>
+<ownerDesignName>Assingment1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>1</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1EC57EEC-BDB8-B7F0-1D64-188DFAB396BC" referredColumn="00B89F27-6AF1-AC12-BC7B-79D118591EA2"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="9C376B0F-D1BD-BB85-F8EE-6F20BDD8A1C4" name="BURROWER_PK">
+<createdBy>Y500</createdBy>
+<createdTime>2018-04-21 08:18:17 UTC</createdTime>
+<generatorID>2A00FB96-FF1B-30F2-6D23-126D49901D1D</generatorID>
+<ownerDesignName>Assingment1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7B338B92-E2F7-6235-2CB1-B779FBF7558B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="59546795-ABE3-CC1D-ABA4-E2065F1B42E0" name="BURROWER_BRANCH_FK">
+<createdBy>Y500</createdBy>
+<createdTime>2018-04-21 08:18:17 UTC</createdTime>
+<generatorID>26852391-94FB-3807-DD0F-FD4B9E4F0D46</generatorID>
+<ownerDesignName>Assingment1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4A0E8CA7-71CC-ABF3-AFED-4946812D106C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B1C9FB1B-C828-1365-20AE-A3502EB12E9F" name="BURROWER_CLASSIFICATION_FK">
+<createdBy>Y500</createdBy>
+<createdTime>2018-04-21 08:18:17 UTC</createdTime>
+<generatorID>02A99816-78DB-A0AD-4C2C-BD3DD404C656</generatorID>
+<ownerDesignName>Assingment1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D344D610-C297-F8F3-98F4-07FB6C981F26"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

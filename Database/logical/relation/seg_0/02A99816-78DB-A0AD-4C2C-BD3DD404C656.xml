@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Burrow_Class_Rel" directorySegmentName="seg_0" id="02A99816-78DB-A0AD-4C2C-BD3DD404C656">
+<createdBy>Y500</createdBy>
+<createdTime>2018-04-21 06:14:09 UTC</createdTime>
+<comment>A Burrower must have one classification.&lt;br/&gt;A classification can belong to zero or many burrowers.</comment>
+<ownerDesignName>Assingment1</ownerDesignName>
+<engineerTo>
+<item key="1934C1CF-5D9D-781F-1A35-70BF0721B59E" value="true"/>
+</engineerTo>
+<sourcePk>AF9373B8-4B90-2A5D-B728-7A601BF6E2F3</sourcePk>
+<identifying>false</identifying>
+<nameOnSource>have</nameOnSource>
+<nameOnTarget>belong</nameOnTarget>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>DA03BFDC-10B4-D8E4-BD50-54F35E7EB077</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>B0F2FE5D-509B-7D80-FE43-036D6B4C416D</targetEntity>
+<transferable>true</transferable>
+</Relation>

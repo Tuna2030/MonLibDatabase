@@ -1,0 +1,57 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E34AC342-F38E-93E4-8025-7C5D7C20C4D0" name="CLASSIFICATION">
+<createdBy>Y500</createdBy>
+<createdTime>2018-04-21 08:18:17 UTC</createdTime>
+<generatorID>DA03BFDC-10B4-D8E4-BD50-54F35E7EB077</generatorID>
+<ownerDesignName>Assingment1</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Classid" id="00B89F27-6AF1-AC12-BC7B-79D118591EA2">
+<createdBy>Y500</createdBy>
+<createdTime>2018-04-21 08:18:17 UTC</createdTime>
+<comment>Classification id is stored in this attribute.</comment>
+<generatorID>E2BBF732-93DD-A347-675D-AFBCA0404893</generatorID>
+<ownerDesignName>Assingment1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>1</dataTypePrecision>
+<ownDataTypeParameters>,1,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Class" id="0E8F497D-7C82-FF3B-6B81-92E544F06576">
+<createdBy>Y500</createdBy>
+<createdTime>2018-04-21 08:18:17 UTC</createdTime>
+<comment>Burrower classification will be recorded in this attribute. Classification can only be junior, adult or organisation.</comment>
+<generatorID>535394B9-66CD-7DF7-E68A-693D3A7926BF</generatorID>
+<ownerDesignName>Assingment1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>12</dataTypeSize>
+<listOfValues>
+<valueDef value="Adult" description=""/>
+<valueDef value="Junior" description=""/>
+<valueDef value="Organisation" description=""/>
+</listOfValues>
+<ownDataTypeParameters>12,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="97A3F74B-331F-6FC2-4EC4-34EDE0E860C4" name="CLASSIFICATION_PK">
+<createdBy>Y500</createdBy>
+<createdTime>2018-04-21 08:18:17 UTC</createdTime>
+<generatorID>AF9373B8-4B90-2A5D-B728-7A601BF6E2F3</generatorID>
+<ownerDesignName>Assingment1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="00B89F27-6AF1-AC12-BC7B-79D118591EA2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

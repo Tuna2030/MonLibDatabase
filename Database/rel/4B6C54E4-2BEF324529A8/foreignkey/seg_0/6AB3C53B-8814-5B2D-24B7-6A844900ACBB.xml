@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="6AB3C53B-8814-5B2D-24B7-6A844900ACBB" containerWithKeyObject="E77A6BD7-2CE8-9936-E308-03915B4E6F0A" localFKIndex="C4E76D6A-2790-305B-3699-FFA293A0854E" name="BOOKCOPY_BRANCH_FK">
+<createdBy>Y500</createdBy>
+<createdTime>2018-04-21 08:18:17 UTC</createdTime>
+<comment>A Branch may possess zero or many book copies.&lt;br/&gt;A book copy must be possessed by only one branch.</comment>
+<generatorID>8C72FBF7-B0B7-D3D5-8E12-DE09F78FC195</generatorID>
+<ownerDesignName>Assingment1</ownerDesignName>
+<referredTableLongName>BRANCH</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>1A5C6541-504E-11BA-D94E-BE6814F3B173</referredTableID>
+<keyObject>C3C82290-5300-6A57-4593-CCB4F2B06026</keyObject>
+<referredKeyID>C3C82290-5300-6A57-4593-CCB4F2B06026</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>Branchid</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

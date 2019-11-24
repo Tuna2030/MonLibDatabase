@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Burrower_Loan_Rel" directorySegmentName="seg_0" id="DA0C0F69-EE5B-82B5-A717-1574F683DEF6">
+<createdBy>Y500</createdBy>
+<createdTime>2018-04-21 06:22:24 UTC</createdTime>
+<comment>A Burrower can make zero or many loans.&lt;br/&gt;A loan must be maden by only one burrower.</comment>
+<ownerDesignName>Assingment1</ownerDesignName>
+<engineerTo>
+<item key="1934C1CF-5D9D-781F-1A35-70BF0721B59E" value="true"/>
+</engineerTo>
+<sourcePk>2A00FB96-FF1B-30F2-6D23-126D49901D1D</sourcePk>
+<identifying>true</identifying>
+<nameOnSource>is maden</nameOnSource>
+<nameOnTarget>make</nameOnTarget>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>B0F2FE5D-509B-7D80-FE43-036D6B4C416D</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>3EFD6219-7BC5-008D-4C4D-EF01CA2C78A9</targetEntity>
+<transferable>true</transferable>
+</Relation>

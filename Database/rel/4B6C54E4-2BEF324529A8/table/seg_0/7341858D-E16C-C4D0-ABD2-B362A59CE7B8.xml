@@ -1,0 +1,133 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="7341858D-E16C-C4D0-ABD2-B362A59CE7B8" name="LOAN">
+<createdBy>Y500</createdBy>
+<createdTime>2018-04-21 08:18:17 UTC</createdTime>
+<generatorID>3EFD6219-7BC5-008D-4C4D-EF01CA2C78A9</generatorID>
+<ownerDesignName>Assingment1</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Loanid" id="ADCFC58D-11BB-AD7E-EA63-E06223B7F709">
+<createdBy>Y500</createdBy>
+<createdTime>2018-04-21 08:18:17 UTC</createdTime>
+<comment>Loan  id is recorded in this attribute when a burrower loans a book.</comment>
+<generatorID>F019B76D-504F-E0AE-CFDB-EC434C88A11D</generatorID>
+<ownerDesignName>Assingment1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>20</dataTypePrecision>
+<ownDataTypeParameters>,20,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="LoanDate" id="577F136B-5143-6332-4AAB-3ACEC7D65F52">
+<createdBy>Y500</createdBy>
+<createdTime>2018-04-21 08:18:17 UTC</createdTime>
+<comment>Loan date id is recorded in this attribute.</comment>
+<generatorID>F48AAF5E-510E-FD0A-0FD2-BDC44126CBB8</generatorID>
+<ownerDesignName>Assingment1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DueDate" id="F768968F-EF1D-A3D0-82F1-41DE93DADC8B">
+<createdBy>Y500</createdBy>
+<createdTime>2018-04-21 08:18:17 UTC</createdTime>
+<comment>Loan expected return date is recorded in this attribute.</comment>
+<generatorID>5AECF641-07B5-7BA6-EDF7-72DA849986C5</generatorID>
+<ownerDesignName>Assingment1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ReturnDate" id="0931A047-48B3-8186-70EB-5D0B066CB64A">
+<createdBy>Y500</createdBy>
+<createdTime>2018-04-21 08:18:17 UTC</createdTime>
+<comment>Loaned book actual return date is recorded in this attribute.</comment>
+<generatorID>C7BCA9C6-1453-5A17-3738-9EA496AC79A2</generatorID>
+<ownerDesignName>Assingment1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="BURROWER_Burrowerid" id="27DE7281-7068-B790-A377-66AB7D70B002">
+<createdBy>Y500</createdBy>
+<createdTime>2018-04-21 08:18:17 UTC</createdTime>
+<comment>Burrower id is recorded in this attribute.</comment>
+<generatorID>A6CA458E-6959-235B-5427-F1D964F897F7</generatorID>
+<ownerDesignName>Assingment1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="404DE3CB-3067-488E-BF59-259630829647" referredColumn="7B338B92-E2F7-6235-2CB1-B779FBF7558B"/>
+</associations>
+</Column>
+<Column name="TITLE_CallNo" id="CA8EC3BD-CF08-83C5-E2CC-9B6B9F7A97A9">
+<createdBy>Y500</createdBy>
+<createdTime>2018-04-21 08:18:17 UTC</createdTime>
+<comment>Book dewey call number is recorded in this attribute.</comment>
+<generatorID>5F73D4F9-5650-9349-6001-957926FC7C9A</generatorID>
+<ownerDesignName>Assingment1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="82C97C36-9991-1380-0D67-6C73C4106AAA" referredColumn="C87DF11E-D6DB-24BA-4CB2-49CC43DC1778"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="FBE2F394-7E2D-00D3-E7E3-68E80CB11883" name="LOAN_PK">
+<createdBy>Y500</createdBy>
+<createdTime>2018-04-21 08:18:17 UTC</createdTime>
+<generatorID>03ED8E11-73A2-B14C-E341-1E12BD81EBF9</generatorID>
+<ownerDesignName>Assingment1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="ADCFC58D-11BB-AD7E-EA63-E06223B7F709"/>
+<colUsage columnID="27DE7281-7068-B790-A377-66AB7D70B002"/>
+<colUsage columnID="CA8EC3BD-CF08-83C5-E2CC-9B6B9F7A97A9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="461B377C-05F5-3ED3-F3B9-AC6DFC61D7F6" name="LOAN_BURROWER_FK">
+<createdBy>Y500</createdBy>
+<createdTime>2018-04-21 08:18:17 UTC</createdTime>
+<generatorID>DA0C0F69-EE5B-82B5-A717-1574F683DEF6</generatorID>
+<ownerDesignName>Assingment1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="27DE7281-7068-B790-A377-66AB7D70B002"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B73D5C0E-CC00-CBDD-8360-38C7D25CA0E3" name="LOAN_TITLE_FK">
+<createdBy>Y500</createdBy>
+<createdTime>2018-04-21 08:18:17 UTC</createdTime>
+<generatorID>C2DCD484-2AA4-BA59-BF9E-780FA513F678</generatorID>
+<ownerDesignName>Assingment1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CA8EC3BD-CF08-83C5-E2CC-9B6B9F7A97A9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Branc_Burrower_Rel" directorySegmentName="seg_0" id="26852391-94FB-3807-DD0F-FD4B9E4F0D46">
+<createdBy>Y500</createdBy>
+<createdTime>2018-04-21 05:53:42 UTC</createdTime>
+<comment>A burrower must be registered to only one library branch.&lt;br/&gt;A branch can be registered by zero or many burrowers.</comment>
+<ownerDesignName>Assingment1</ownerDesignName>
+<engineerTo>
+<item key="1934C1CF-5D9D-781F-1A35-70BF0721B59E" value="true"/>
+</engineerTo>
+<sourcePk>E81423D5-3E94-D007-53F8-A89786EE6133</sourcePk>
+<identifying>false</identifying>
+<nameOnSource>register</nameOnSource>
+<nameOnTarget>is registered</nameOnTarget>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>FFCDB88E-AD83-0B25-5DA5-0A8197BCA75E</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>B0F2FE5D-509B-7D80-FE43-036D6B4C416D</targetEntity>
+<transferable>true</transferable>
+</Relation>

@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Title_Publisher_Rel" directorySegmentName="seg_0" id="87D704AD-BA92-7508-AD71-6E3489680BE2">
+<createdBy>Y500</createdBy>
+<createdTime>2018-04-21 06:02:52 UTC</createdTime>
+<comment>A title must have one publisher.&lt;br/&gt;A publisher must have one or many titles.</comment>
+<ownerDesignName>Assingment1</ownerDesignName>
+<engineerTo>
+<item key="1934C1CF-5D9D-781F-1A35-70BF0721B59E" value="true"/>
+</engineerTo>
+<sourcePk>D3070F9C-41A8-2876-546F-ED0554DC6301</sourcePk>
+<identifying>false</identifying>
+<nameOnSource>is published</nameOnSource>
+<nameOnTarget>publish</nameOnTarget>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>61450DD8-A7E2-B83B-DD37-40037CFA3B6C</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>A469D38E-36FB-5E2E-A5E0-EE9BD2DB1FB8</targetEntity>
+<transferable>true</transferable>
+</Relation>

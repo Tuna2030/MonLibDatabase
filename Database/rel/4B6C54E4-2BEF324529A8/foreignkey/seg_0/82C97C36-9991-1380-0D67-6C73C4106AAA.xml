@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="82C97C36-9991-1380-0D67-6C73C4106AAA" containerWithKeyObject="7341858D-E16C-C4D0-ABD2-B362A59CE7B8" localFKIndex="B73D5C0E-CC00-CBDD-8360-38C7D25CA0E3" name="LOAN_TITLE_FK">
+<createdBy>Y500</createdBy>
+<createdTime>2018-04-21 08:18:17 UTC</createdTime>
+<comment>A title can belong to zero or many loans.&lt;br/&gt;A loan must have only one title.</comment>
+<generatorID>C2DCD484-2AA4-BA59-BF9E-780FA513F678</generatorID>
+<ownerDesignName>Assingment1</ownerDesignName>
+<referredTableLongName>TITLE</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>7332F8B4-60FF-0400-4CF7-5FA70DE8869C</referredTableID>
+<keyObject>6EB6C280-E2FE-E7B8-D818-A927E662A662</keyObject>
+<referredKeyID>6EB6C280-E2FE-E7B8-D818-A927E662A662</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>CallNo</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

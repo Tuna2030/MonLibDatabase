@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Branch_Barcode_Rel" directorySegmentName="seg_0" id="8C72FBF7-B0B7-D3D5-8E12-DE09F78FC195">
+<createdBy>Y500</createdBy>
+<createdTime>2018-04-20 01:13:58 UTC</createdTime>
+<comment>A Branch may possess zero or many book copies.&lt;br/&gt;A book copy must be possessed by only one branch.</comment>
+<ownerDesignName>Assingment1</ownerDesignName>
+<engineerTo>
+<item key="1934C1CF-5D9D-781F-1A35-70BF0721B59E" value="true"/>
+</engineerTo>
+<sourcePk>E81423D5-3E94-D007-53F8-A89786EE6133</sourcePk>
+<identifying>false</identifying>
+<nameOnSource>is possessed</nameOnSource>
+<nameOnTarget>possess</nameOnTarget>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>FFCDB88E-AD83-0B25-5DA5-0A8197BCA75E</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>4005FDC9-5C9E-60CD-BB03-268401F3D8DC</targetEntity>
+<transferable>true</transferable>
+</Relation>

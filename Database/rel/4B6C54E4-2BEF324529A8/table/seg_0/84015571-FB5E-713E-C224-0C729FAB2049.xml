@@ -1,0 +1,99 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="84015571-FB5E-713E-C224-0C729FAB2049" name="FICTIONNUMBER">
+<createdBy>Y500</createdBy>
+<createdTime>2018-04-21 08:18:17 UTC</createdTime>
+<generatorID>7CC28DD7-3F0D-074E-DD5D-7E5C9C4F38ED</generatorID>
+<ownerDesignName>Assingment1</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="FictionNumber" id="BAB38D66-52D8-D770-310A-63274B8635DB">
+<createdBy>Y500</createdBy>
+<createdTime>2018-04-21 08:18:17 UTC</createdTime>
+<comment>If a books&apos; classification is fiction, fiction number is recorded in this attribute.</comment>
+<generatorID>64F9047F-F014-A798-4304-A1E23E776F3F</generatorID>
+<ownerDesignName>Assingment1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<listOfValues>
+<valueDef value="1" description=""/>
+<valueDef value="10" description=""/>
+<valueDef value="11" description=""/>
+<valueDef value="12" description=""/>
+<valueDef value="13" description=""/>
+<valueDef value="14" description=""/>
+<valueDef value="15" description=""/>
+<valueDef value="16" description=""/>
+<valueDef value="17" description=""/>
+<valueDef value="18" description=""/>
+<valueDef value="19" description=""/>
+<valueDef value="2" description=""/>
+<valueDef value="20" description=""/>
+<valueDef value="21" description=""/>
+<valueDef value="22" description=""/>
+<valueDef value="23" description=""/>
+<valueDef value="24" description=""/>
+<valueDef value="25" description=""/>
+<valueDef value="26" description=""/>
+<valueDef value="27" description=""/>
+<valueDef value="28" description=""/>
+<valueDef value="29" description=""/>
+<valueDef value="3" description=""/>
+<valueDef value="30" description=""/>
+<valueDef value="4" description=""/>
+<valueDef value="5" description=""/>
+<valueDef value="6" description=""/>
+<valueDef value="7" description=""/>
+<valueDef value="8" description=""/>
+<valueDef value="9" description=""/>
+</listOfValues>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TITLE_CallNo" id="E5DB7E6F-80E9-4956-47DD-D609A5E9FC84">
+<createdBy>Y500</createdBy>
+<createdTime>2018-04-21 08:18:17 UTC</createdTime>
+<comment>Book dewey call number is recorded in this attribute.</comment>
+<generatorID>28DD4FD0-A9F6-250A-8989-1EE89AC54E6D</generatorID>
+<ownerDesignName>Assingment1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="EC94A6EE-44F1-667D-5389-57263FCC9BD1" referredColumn="C87DF11E-D6DB-24BA-4CB2-49CC43DC1778"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="67EEC057-A5D2-7A81-8AB2-2BEA4B249D65" name="FICTIONNUMBER_PK">
+<createdBy>Y500</createdBy>
+<createdTime>2018-04-21 08:18:17 UTC</createdTime>
+<generatorID>EF65965A-6233-1F7A-64FC-A652F5D718AB</generatorID>
+<ownerDesignName>Assingment1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E5DB7E6F-80E9-4956-47DD-D609A5E9FC84"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4D0D784D-4830-32D6-9DA1-C210FF3BB137" name="FICTIONNUMBER_TITLE_FK">
+<createdBy>Y500</createdBy>
+<createdTime>2018-04-21 08:18:17 UTC</createdTime>
+<generatorID>B66CEE0C-6161-2537-BFBC-5546CE72D058</generatorID>
+<ownerDesignName>Assingment1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E5DB7E6F-80E9-4956-47DD-D609A5E9FC84"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

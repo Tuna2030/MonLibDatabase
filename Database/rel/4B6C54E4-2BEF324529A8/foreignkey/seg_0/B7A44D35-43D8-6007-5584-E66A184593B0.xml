@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="B7A44D35-43D8-6007-5584-E66A184593B0" containerWithKeyObject="BB3616BE-2965-D5FC-0C27-C42B36A44DF4" localFKIndex="59546795-ABE3-CC1D-ABA4-E2065F1B42E0" name="BURROWER_BRANCH_FK">
+<createdBy>Y500</createdBy>
+<createdTime>2018-04-21 08:18:17 UTC</createdTime>
+<comment>A burrower must be registered to only one library branch.&lt;br/&gt;A branch can be registered by zero or many burrowers.</comment>
+<generatorID>26852391-94FB-3807-DD0F-FD4B9E4F0D46</generatorID>
+<ownerDesignName>Assingment1</ownerDesignName>
+<referredTableLongName>BRANCH</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>1A5C6541-504E-11BA-D94E-BE6814F3B173</referredTableID>
+<keyObject>C3C82290-5300-6A57-4593-CCB4F2B06026</keyObject>
+<referredKeyID>C3C82290-5300-6A57-4593-CCB4F2B06026</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>Branchid</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

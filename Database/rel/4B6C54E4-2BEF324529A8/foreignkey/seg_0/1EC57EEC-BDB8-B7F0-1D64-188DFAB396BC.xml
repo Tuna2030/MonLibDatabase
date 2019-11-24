@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="1EC57EEC-BDB8-B7F0-1D64-188DFAB396BC" containerWithKeyObject="BB3616BE-2965-D5FC-0C27-C42B36A44DF4" localFKIndex="B1C9FB1B-C828-1365-20AE-A3502EB12E9F" name="BURROWER_CLASSIFICATION_FK">
+<createdBy>Y500</createdBy>
+<createdTime>2018-04-21 08:18:17 UTC</createdTime>
+<comment>A Burrower must have one classification.&lt;br/&gt;A classification can belong to zero or many burrowers.</comment>
+<generatorID>02A99816-78DB-A0AD-4C2C-BD3DD404C656</generatorID>
+<ownerDesignName>Assingment1</ownerDesignName>
+<referredTableLongName>CLASSIFICATION</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>E34AC342-F38E-93E4-8025-7C5D7C20C4D0</referredTableID>
+<keyObject>97A3F74B-331F-6FC2-4EC4-34EDE0E860C4</keyObject>
+<referredKeyID>97A3F74B-331F-6FC2-4EC4-34EDE0E860C4</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>Classid</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

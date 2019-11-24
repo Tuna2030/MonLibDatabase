@@ -1,0 +1,105 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="FFCDB88E-AD83-0B25-5DA5-0A8197BCA75E" name="BRANCH">
+<createdBy>Y500</createdBy>
+<createdTime>2018-04-19 23:34:11 UTC</createdTime>
+<ownerDesignName>Assingment1</ownerDesignName>
+<engineerTo>
+<item key="1934C1CF-5D9D-781F-1A35-70BF0721B59E" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Branchid" id="C20B5E07-E190-1698-37FB-4BA74B9C10D6">
+<createdBy>Y500</createdBy>
+<createdTime>2018-04-19 23:34:36 UTC</createdTime>
+<comment>Each brach has unique branchid which starts from 100 and increments by 1 for each new row.</comment>
+<ownerDesignName>Assingment1</ownerDesignName>
+<engineerTo>
+<item key="1934C1CF-5D9D-781F-1A35-70BF0721B59E" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="BranchName" id="6B60E249-2586-3233-724D-DE0C002B17EE">
+<createdBy>Y500</createdBy>
+<createdTime>2018-04-19 23:35:31 UTC</createdTime>
+<comment>Branch name is recorded in this attribute.</comment>
+<ownerDesignName>Assingment1</ownerDesignName>
+<engineerTo>
+<item key="1934C1CF-5D9D-781F-1A35-70BF0721B59E" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="BranchAddress" id="A32677A5-6080-4E54-AB45-0B52853E6F3B">
+<createdBy>Y500</createdBy>
+<createdTime>2018-04-19 23:35:39 UTC</createdTime>
+<comment>Branch address is recorded in this attribute.</comment>
+<ownerDesignName>Assingment1</ownerDesignName>
+<engineerTo>
+<item key="1934C1CF-5D9D-781F-1A35-70BF0721B59E" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="BranchPhone" id="1358DB2F-A1E1-AA5B-9759-B01ADE986529">
+<createdBy>Y500</createdBy>
+<createdTime>2018-04-19 23:35:47 UTC</createdTime>
+<comment>Branch phone is recorded in this attribute.</comment>
+<ownerDesignName>Assingment1</ownerDesignName>
+<engineerTo>
+<item key="1934C1CF-5D9D-781F-1A35-70BF0721B59E" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>13</dataTypeSize>
+<ownDataTypeParameters>13,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Managerid" id="9A6FA545-EB91-9E67-61D0-5A046F96A5F9">
+<createdBy>Y500</createdBy>
+<createdTime>2018-04-20 00:56:27 UTC</createdTime>
+<comment>Manager id is recorded in this attribute.</comment>
+<generatorID>9242FCF5-B227-2A64-9C12-79C814F571C8</generatorID>
+<ownerDesignName>Assingment1</ownerDesignName>
+<engineerTo>
+<item key="1934C1CF-5D9D-781F-1A35-70BF0721B59E" value="true"/>
+</engineerTo>
+<referedAttribute>1AF41EF5-0F1A-0753-B2E7-8DECDB49CAC0</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="E81423D5-3E94-D007-53F8-A89786EE6133" name="BRANCH PK">
+<createdBy>Y500</createdBy>
+<createdTime>2018-04-19 23:39:01 UTC</createdTime>
+<ownerDesignName>Assingment1</ownerDesignName>
+<engineerTo>
+<item key="1934C1CF-5D9D-781F-1A35-70BF0721B59E" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>C20B5E07-E190-1698-37FB-4BA74B9C10D6</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

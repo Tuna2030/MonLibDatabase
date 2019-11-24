@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="EC94A6EE-44F1-667D-5389-57263FCC9BD1" containerWithKeyObject="84015571-FB5E-713E-C224-0C729FAB2049" localFKIndex="4D0D784D-4830-32D6-9DA1-C210FF3BB137" name="FICTIONNUMBER_TITLE_FK">
+<createdBy>Y500</createdBy>
+<createdTime>2018-04-21 08:18:17 UTC</createdTime>
+<comment>A fiction number must have one title.&lt;br/&gt;A title may have zero or one fiction number.</comment>
+<generatorID>B66CEE0C-6161-2537-BFBC-5546CE72D058</generatorID>
+<ownerDesignName>Assingment1</ownerDesignName>
+<referredTableLongName>TITLE</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>7332F8B4-60FF-0400-4CF7-5FA70DE8869C</referredTableID>
+<keyObject>6EB6C280-E2FE-E7B8-D818-A927E662A662</keyObject>
+<referredKeyID>6EB6C280-E2FE-E7B8-D818-A927E662A662</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>CallNo</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

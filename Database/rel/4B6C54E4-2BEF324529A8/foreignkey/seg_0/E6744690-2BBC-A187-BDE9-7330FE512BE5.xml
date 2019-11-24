@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="E6744690-2BBC-A187-BDE9-7330FE512BE5" containerWithKeyObject="7332F8B4-60FF-0400-4CF7-5FA70DE8869C" localFKIndex="B8BBAEA5-F468-A6B3-B3D5-5F09DB45A1B5" name="TITLE_PUBLISHER_FK">
+<createdBy>Y500</createdBy>
+<createdTime>2018-04-21 08:18:17 UTC</createdTime>
+<comment>A title must have one publisher.&lt;br/&gt;A publisher must have one or many titles.</comment>
+<generatorID>87D704AD-BA92-7508-AD71-6E3489680BE2</generatorID>
+<ownerDesignName>Assingment1</ownerDesignName>
+<referredTableLongName>PUBLISHER</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>3887B042-6600-8AAA-E901-C70CE5120ED3</referredTableID>
+<keyObject>242C00E2-9CE7-876F-DBA7-AD00BC93EC42</keyObject>
+<referredKeyID>242C00E2-9CE7-876F-DBA7-AD00BC93EC42</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>Publisherid</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

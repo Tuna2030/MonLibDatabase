@@ -1,0 +1,180 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="A469D38E-36FB-5E2E-A5E0-EE9BD2DB1FB8" name="TITLE">
+<createdBy>Y500</createdBy>
+<createdTime>2018-04-19 23:54:24 UTC</createdTime>
+<ownerDesignName>Assingment1</ownerDesignName>
+<engineerTo>
+<item key="1934C1CF-5D9D-781F-1A35-70BF0721B59E" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="CallNo" id="98EA59F3-124B-7F5D-6FF7-238350C095BE">
+<createdBy>Y500</createdBy>
+<createdTime>2018-04-19 23:54:33 UTC</createdTime>
+<comment>Book dewey call number is recorded in this attribute.</comment>
+<ownerDesignName>Assingment1</ownerDesignName>
+<engineerTo>
+<item key="1934C1CF-5D9D-781F-1A35-70BF0721B59E" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Title" id="D624C93F-9102-D577-963E-047C050D7C2B">
+<createdBy>Y500</createdBy>
+<createdTime>2018-04-19 23:55:24 UTC</createdTime>
+<comment>Book title is recorded in this attribute.</comment>
+<ownerDesignName>Assingment1</ownerDesignName>
+<engineerTo>
+<item key="1934C1CF-5D9D-781F-1A35-70BF0721B59E" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Description" id="C6DA4487-4D57-0508-C752-1CF6356A39A7">
+<createdBy>Y500</createdBy>
+<createdTime>2018-04-19 23:56:05 UTC</createdTime>
+<comment>Book description is recorded in this attribute.</comment>
+<ownerDesignName>Assingment1</ownerDesignName>
+<engineerTo>
+<item key="1934C1CF-5D9D-781F-1A35-70BF0721B59E" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1000</dataTypeSize>
+<ownDataTypeParameters>1000,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="PublishYear" id="3E62EE12-DFE7-DACD-8B66-B690B48B00D3">
+<createdBy>Y500</createdBy>
+<createdTime>2018-04-19 23:57:12 UTC</createdTime>
+<comment>Book publish year is recorded in this attribute.</comment>
+<ownerDesignName>Assingment1</ownerDesignName>
+<engineerTo>
+<item key="1934C1CF-5D9D-781F-1A35-70BF0721B59E" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,4,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Edition" id="D9A03D3C-E87B-4D39-481E-6A5BE8555BBC">
+<createdBy>Y500</createdBy>
+<createdTime>2018-04-19 23:57:36 UTC</createdTime>
+<comment>Book edition is recorded in this attribute.</comment>
+<ownerDesignName>Assingment1</ownerDesignName>
+<engineerTo>
+<item key="1934C1CF-5D9D-781F-1A35-70BF0721B59E" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Notes" id="AF9FE0FA-63FD-C73E-7807-4256517C3BBC">
+<createdBy>Y500</createdBy>
+<createdTime>2018-04-19 23:59:16 UTC</createdTime>
+<comment>Book notes is recorded in this attribute.</comment>
+<ownerDesignName>Assingment1</ownerDesignName>
+<engineerTo>
+<item key="1934C1CF-5D9D-781F-1A35-70BF0721B59E" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Language" id="C5218127-51E1-2366-AD9B-C9319C9CF6DB">
+<createdBy>Y500</createdBy>
+<createdTime>2018-04-19 23:59:51 UTC</createdTime>
+<comment>Book language is recorded in this attribute.</comment>
+<ownerDesignName>Assingment1</ownerDesignName>
+<engineerTo>
+<item key="1934C1CF-5D9D-781F-1A35-70BF0721B59E" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="PageNo" id="363526F5-8786-C6A7-B51E-123A412BA70C">
+<createdBy>Y500</createdBy>
+<createdTime>2018-04-20 00:00:28 UTC</createdTime>
+<comment>Book page number is recorded in this attribute.</comment>
+<ownerDesignName>Assingment1</ownerDesignName>
+<engineerTo>
+<item key="1934C1CF-5D9D-781F-1A35-70BF0721B59E" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Classification" id="578871A8-D53E-76B9-31B0-C67F3CDD88AB">
+<createdBy>Y500</createdBy>
+<createdTime>2018-04-20 00:01:05 UTC</createdTime>
+<comment>Book classification is recorded in this attribute. Classification can either be reference or fiction.</comment>
+<ownerDesignName>Assingment1</ownerDesignName>
+<engineerTo>
+<item key="1934C1CF-5D9D-781F-1A35-70BF0721B59E" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>9</dataTypeSize>
+<listOfValues>
+<valueDef value="Fiction" description=""/>
+<valueDef value="Reference" description=""/>
+</listOfValues>
+<ownDataTypeParameters>9,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Publisherid" id="41C05FEF-F4A1-2873-54AC-1834475B7A20">
+<createdBy>Y500</createdBy>
+<createdTime>2018-04-21 06:02:52 UTC</createdTime>
+<comment>Publisher id is recorded in this attribute.</comment>
+<generatorID>87D704AD-BA92-7508-AD71-6E3489680BE2</generatorID>
+<ownerDesignName>Assingment1</ownerDesignName>
+<engineerTo>
+<item key="1934C1CF-5D9D-781F-1A35-70BF0721B59E" value="true"/>
+</engineerTo>
+<referedAttribute>1E320CA3-5B04-CDCE-D898-6551DB28BA53</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="93C52D96-15C3-5A7E-1EFA-3DFF7725EC70" name="TITLE PK">
+<createdBy>Y500</createdBy>
+<createdTime>2018-04-19 23:54:57 UTC</createdTime>
+<ownerDesignName>Assingment1</ownerDesignName>
+<engineerTo>
+<item key="1934C1CF-5D9D-781F-1A35-70BF0721B59E" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>98EA59F3-124B-7F5D-6FF7-238350C095BE</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="404DE3CB-3067-488E-BF59-259630829647" containerWithKeyObject="7341858D-E16C-C4D0-ABD2-B362A59CE7B8" localFKIndex="461B377C-05F5-3ED3-F3B9-AC6DFC61D7F6" name="LOAN_BURROWER_FK">
+<createdBy>Y500</createdBy>
+<createdTime>2018-04-21 08:18:17 UTC</createdTime>
+<comment>A Burrower can make zero or many loans.&lt;br/&gt;A loan must be maden by only one burrower.</comment>
+<generatorID>DA0C0F69-EE5B-82B5-A717-1574F683DEF6</generatorID>
+<ownerDesignName>Assingment1</ownerDesignName>
+<referredTableLongName>BURROWER</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>BB3616BE-2965-D5FC-0C27-C42B36A44DF4</referredTableID>
+<keyObject>9C376B0F-D1BD-BB85-F8EE-6F20BDD8A1C4</keyObject>
+<referredKeyID>9C376B0F-D1BD-BB85-F8EE-6F20BDD8A1C4</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>Burrowerid</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

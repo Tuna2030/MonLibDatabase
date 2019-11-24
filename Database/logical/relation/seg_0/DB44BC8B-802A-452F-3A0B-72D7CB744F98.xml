@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Title_ISBN_Rel" directorySegmentName="seg_0" id="DB44BC8B-802A-452F-3A0B-72D7CB744F98">
+<createdBy>Y500</createdBy>
+<createdTime>2018-04-21 05:49:11 UTC</createdTime>
+<comment>A Title must have one or many ISBN.&lt;br/&gt;An ISBN must have only one title.</comment>
+<ownerDesignName>Assingment1</ownerDesignName>
+<engineerTo>
+<item key="1934C1CF-5D9D-781F-1A35-70BF0721B59E" value="true"/>
+</engineerTo>
+<sourcePk>93C52D96-15C3-5A7E-1EFA-3DFF7725EC70</sourcePk>
+<identifying>false</identifying>
+<nameOnSource>belong</nameOnSource>
+<nameOnTarget>have</nameOnTarget>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>A469D38E-36FB-5E2E-A5E0-EE9BD2DB1FB8</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>23828E28-481C-C755-4274-F7C36A192BC9</targetEntity>
+<transferable>true</transferable>
+</Relation>

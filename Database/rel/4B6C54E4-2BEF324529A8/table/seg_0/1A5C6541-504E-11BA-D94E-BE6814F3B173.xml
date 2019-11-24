@@ -1,0 +1,111 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="1A5C6541-504E-11BA-D94E-BE6814F3B173" name="BRANCH">
+<createdBy>Y500</createdBy>
+<createdTime>2018-04-21 08:18:17 UTC</createdTime>
+<generatorID>FFCDB88E-AD83-0B25-5DA5-0A8197BCA75E</generatorID>
+<ownerDesignName>Assingment1</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Branchid" id="F62479CD-CF43-2300-ED27-1C64BD30F888">
+<createdBy>Y500</createdBy>
+<createdTime>2018-04-21 08:18:17 UTC</createdTime>
+<comment>Each brach has unique branchid which starts from 100 and increments by 1 for each new row.</comment>
+<generatorID>C20B5E07-E190-1698-37FB-4BA74B9C10D6</generatorID>
+<ownerDesignName>Assingment1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<autoIncrementGenerateAlways>true</autoIncrementGenerateAlways>
+<autoIncrementStartWith>100</autoIncrementStartWith>
+<autoIncrementCycle>false</autoIncrementCycle>
+<autoIncrementSequenceName>Branchid_seq</autoIncrementSequenceName>
+<autoIncrementTriggerName>Branchid_trig</autoIncrementTriggerName>
+</Column>
+<Column name="BranchName" id="0CA773AA-31D3-9FE8-74D9-3310DCF48539">
+<createdBy>Y500</createdBy>
+<createdTime>2018-04-21 08:18:17 UTC</createdTime>
+<comment>Branch name is recorded in this attribute.</comment>
+<generatorID>6B60E249-2586-3233-724D-DE0C002B17EE</generatorID>
+<ownerDesignName>Assingment1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="BranchAddress" id="F7086980-646A-C405-DA5A-05FED72973B7">
+<createdBy>Y500</createdBy>
+<createdTime>2018-04-21 08:18:17 UTC</createdTime>
+<comment>Branch address is recorded in this attribute.</comment>
+<generatorID>A32677A5-6080-4E54-AB45-0B52853E6F3B</generatorID>
+<ownerDesignName>Assingment1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="BranchPhone" id="79F96D01-292F-B748-19B1-13DBE5FA4CDF">
+<createdBy>Y500</createdBy>
+<createdTime>2018-04-21 08:18:17 UTC</createdTime>
+<comment>Branch phone is recorded in this attribute.</comment>
+<generatorID>1358DB2F-A1E1-AA5B-9759-B01ADE986529</generatorID>
+<ownerDesignName>Assingment1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>13</dataTypeSize>
+<ownDataTypeParameters>13,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="MANAGER_Managerid" id="9772E176-20DF-BABD-D125-4D8CADB53C67">
+<createdBy>Y500</createdBy>
+<createdTime>2018-04-21 08:18:17 UTC</createdTime>
+<comment>Manager id is recorded in this attribute.</comment>
+<generatorID>9A6FA545-EB91-9E67-61D0-5A046F96A5F9</generatorID>
+<ownerDesignName>Assingment1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="932FE8B1-9C33-45C3-6D7E-420774366815" referredColumn="744FDF2C-735F-BD80-73BD-DF142A644C83"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C3C82290-5300-6A57-4593-CCB4F2B06026" name="BRANCH_PK">
+<createdBy>Y500</createdBy>
+<createdTime>2018-04-21 08:18:17 UTC</createdTime>
+<generatorID>E81423D5-3E94-D007-53F8-A89786EE6133</generatorID>
+<ownerDesignName>Assingment1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F62479CD-CF43-2300-ED27-1C64BD30F888"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="373F0E37-E33A-068A-963E-37C4C32CF7B2" name="BRANCH_MANAGER_FK">
+<createdBy>Y500</createdBy>
+<createdTime>2018-04-21 08:18:17 UTC</createdTime>
+<generatorID>9242FCF5-B227-2A64-9C12-79C814F571C8</generatorID>
+<ownerDesignName>Assingment1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9772E176-20DF-BABD-D125-4D8CADB53C67"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

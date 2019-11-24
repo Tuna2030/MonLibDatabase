@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Manager_Branch_Rel" directorySegmentName="seg_0" id="9242FCF5-B227-2A64-9C12-79C814F571C8">
+<createdBy>Y500</createdBy>
+<createdTime>2018-04-20 00:56:27 UTC</createdTime>
+<comment>A manager can manage one or many branches.&lt;br/&gt;A branch must be managed by one manager.</comment>
+<ownerDesignName>Assingment1</ownerDesignName>
+<engineerTo>
+<item key="1934C1CF-5D9D-781F-1A35-70BF0721B59E" value="true"/>
+</engineerTo>
+<sourcePk>8D2A69D2-F5E6-BF13-D0FF-F373B4C3C4A6</sourcePk>
+<identifying>false</identifying>
+<nameOnSource>is managed</nameOnSource>
+<nameOnTarget>manages</nameOnTarget>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>75FE2770-70BC-A1DC-D33E-2A15B50ED953</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>FFCDB88E-AD83-0B25-5DA5-0A8197BCA75E</targetEntity>
+<transferable>true</transferable>
+</Relation>

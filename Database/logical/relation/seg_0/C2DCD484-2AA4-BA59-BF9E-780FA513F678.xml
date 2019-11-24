@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Title_Loan_Rel" directorySegmentName="seg_0" id="C2DCD484-2AA4-BA59-BF9E-780FA513F678">
+<createdBy>Y500</createdBy>
+<createdTime>2018-04-21 06:23:39 UTC</createdTime>
+<comment>A title can belong to zero or many loans.&lt;br/&gt;A loan must have only one title.</comment>
+<ownerDesignName>Assingment1</ownerDesignName>
+<engineerTo>
+<item key="1934C1CF-5D9D-781F-1A35-70BF0721B59E" value="true"/>
+</engineerTo>
+<sourcePk>93C52D96-15C3-5A7E-1EFA-3DFF7725EC70</sourcePk>
+<identifying>true</identifying>
+<nameOnSource>belong</nameOnSource>
+<nameOnTarget>have</nameOnTarget>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>A469D38E-36FB-5E2E-A5E0-EE9BD2DB1FB8</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>3EFD6219-7BC5-008D-4C4D-EF01CA2C78A9</targetEntity>
+<transferable>true</transferable>
+</Relation>

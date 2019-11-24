@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Title_Fiction_Rel" directorySegmentName="seg_0" id="B66CEE0C-6161-2537-BFBC-5546CE72D058">
+<createdBy>Y500</createdBy>
+<createdTime>2018-04-21 06:05:43 UTC</createdTime>
+<comment>A fiction number must have one title.&lt;br/&gt;A title may have zero or one fiction number.</comment>
+<ownerDesignName>Assingment1</ownerDesignName>
+<engineerTo>
+<item key="1934C1CF-5D9D-781F-1A35-70BF0721B59E" value="true"/>
+</engineerTo>
+<sourcePk>93C52D96-15C3-5A7E-1EFA-3DFF7725EC70</sourcePk>
+<identifying>true</identifying>
+<nameOnSource>have</nameOnSource>
+<nameOnTarget>belong</nameOnTarget>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>A469D38E-36FB-5E2E-A5E0-EE9BD2DB1FB8</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>7CC28DD7-3F0D-074E-DD5D-7E5C9C4F38ED</targetEntity>
+<transferable>true</transferable>
+</Relation>

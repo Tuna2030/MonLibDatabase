@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="EAC2442F-07FC-BE52-F2DE-9F7C4421D5F0" containerWithKeyObject="03816F35-7FBB-9FBF-99AB-D577A2859E80" localFKIndex="1DCF1ACE-55F2-4678-ECBE-BEEFD780F014" name="RESERVE_BOOKCOPY_FK">
+<createdBy>Y500</createdBy>
+<createdTime>2018-04-21 08:18:17 UTC</createdTime>
+<comment>A Book copy can belong to zero or many reservation.&lt;br/&gt;A Reservation must have only one book copy.</comment>
+<generatorID>49BA31CC-7468-73BC-5571-71F460BFBCA9</generatorID>
+<ownerDesignName>Assingment1</ownerDesignName>
+<referredTableLongName>BOOKCOPY</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>E77A6BD7-2CE8-9936-E308-03915B4E6F0A</referredTableID>
+<keyObject>4008B60A-0466-4167-DE1C-0C73AEF6D45C</keyObject>
+<referredKeyID>4008B60A-0466-4167-DE1C-0C73AEF6D45C</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>BarcodeNo</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

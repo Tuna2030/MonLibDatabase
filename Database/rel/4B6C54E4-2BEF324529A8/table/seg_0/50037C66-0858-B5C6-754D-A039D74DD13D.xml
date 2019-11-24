@@ -1,0 +1,118 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="50037C66-0858-B5C6-754D-A039D74DD13D" name="LATEDELIVERY">
+<createdBy>Y500</createdBy>
+<createdTime>2018-04-21 08:18:17 UTC</createdTime>
+<generatorID>210BBD4E-AD23-237A-CD9D-00317ED9342B</generatorID>
+<ownerDesignName>Assingment1</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="PaymentDate" id="5A99E2E5-D42F-771E-22AD-527D581CDB98">
+<createdBy>Y500</createdBy>
+<createdTime>2018-04-21 08:18:17 UTC</createdTime>
+<comment>If burrower does not return the loaned book before due date, burrower will be informed about the latest fine payment date. Payment date is recorded in this attribute.</comment>
+<generatorID>2D4EFB66-8E1E-0F96-501C-A1FFDC492BF4</generatorID>
+<ownerDesignName>Assingment1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Amount" id="5F2CB185-3309-918D-0D4D-3941F91AF054">
+<createdBy>Y500</createdBy>
+<createdTime>2018-04-21 08:18:17 UTC</createdTime>
+<comment>If burrower does not return the loaned book before due date, burrower will be informed about the latest fine payment date. Payment amount is recorded in this attribute.</comment>
+<generatorID>C60B7DC6-C8CB-E831-6622-9CFB98B2E0F9</generatorID>
+<ownerDesignName>Assingment1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,8,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="LOAN_Loanid" id="FD75268F-9B36-7E05-6727-B297C387909B">
+<createdBy>Y500</createdBy>
+<createdTime>2018-04-21 08:18:17 UTC</createdTime>
+<comment>Loan  id is recorded in this attribute when a burrower loans a book.</comment>
+<generatorID>5B0FB14F-EE52-2454-842B-C30FF4941F0D</generatorID>
+<ownerDesignName>Assingment1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>20</dataTypePrecision>
+<ownDataTypeParameters>,20,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="96698728-F62E-9DBF-A849-513F16D65239" referredColumn="ADCFC58D-11BB-AD7E-EA63-E06223B7F709"/>
+</associations>
+</Column>
+<Column name="LOAN_BURROWER_Burrowerid" id="C46223AB-309B-16C5-FEED-B99CAAE7743C">
+<createdBy>Y500</createdBy>
+<createdTime>2018-04-21 08:18:17 UTC</createdTime>
+<comment>Burrower id is recorded in this attribute.</comment>
+<generatorID>12867ECF-3087-A68D-9F11-F44C8B58669C</generatorID>
+<ownerDesignName>Assingment1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="96698728-F62E-9DBF-A849-513F16D65239" referredColumn="27DE7281-7068-B790-A377-66AB7D70B002"/>
+</associations>
+</Column>
+<Column name="LOAN_TITLE_CallNo" id="96E366F9-6426-B465-1D49-C883ED01D942">
+<createdBy>Y500</createdBy>
+<createdTime>2018-04-21 08:18:17 UTC</createdTime>
+<comment>Book dewey call number is recorded in this attribute.</comment>
+<generatorID>AAF1EF81-D7AA-9076-0CA7-F1293B2E67D0</generatorID>
+<ownerDesignName>Assingment1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="96698728-F62E-9DBF-A849-513F16D65239" referredColumn="CA8EC3BD-CF08-83C5-E2CC-9B6B9F7A97A9"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="6DBC385C-36C1-2C5C-5F63-2114D358640A" name="LATEDELIVERY_PK">
+<createdBy>Y500</createdBy>
+<createdTime>2018-04-21 08:18:17 UTC</createdTime>
+<generatorID>27396024-4B4F-A602-8B33-86A21B5D79F2</generatorID>
+<ownerDesignName>Assingment1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FD75268F-9B36-7E05-6727-B297C387909B"/>
+<colUsage columnID="C46223AB-309B-16C5-FEED-B99CAAE7743C"/>
+<colUsage columnID="96E366F9-6426-B465-1D49-C883ED01D942"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9DA6F882-979D-A01A-A29B-C53A9A649F31" name="LATEDELIVERY_LOAN_FK">
+<createdBy>Y500</createdBy>
+<createdTime>2018-04-21 08:18:17 UTC</createdTime>
+<generatorID>0C9541FD-7357-95DD-FB38-516635FF0B8A</generatorID>
+<ownerDesignName>Assingment1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FD75268F-9B36-7E05-6727-B297C387909B"/>
+<colUsage columnID="C46223AB-309B-16C5-FEED-B99CAAE7743C"/>
+<colUsage columnID="96E366F9-6426-B465-1D49-C883ED01D942"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

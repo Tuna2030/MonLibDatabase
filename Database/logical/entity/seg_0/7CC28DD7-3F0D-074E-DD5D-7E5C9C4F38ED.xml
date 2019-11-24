@@ -1,0 +1,95 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="7CC28DD7-3F0D-074E-DD5D-7E5C9C4F38ED" name="FICTIONNUMBER">
+<createdBy>Y500</createdBy>
+<createdTime>2018-04-20 00:14:08 UTC</createdTime>
+<ownerDesignName>Assingment1</ownerDesignName>
+<engineerTo>
+<item key="918D1B8A-23C8-7065-A889-77DB5428F4E5" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="FictionNumber" id="64F9047F-F014-A798-4304-A1E23E776F3F">
+<createdBy>Y500</createdBy>
+<createdTime>2018-04-20 00:14:24 UTC</createdTime>
+<comment>If a books&apos; classification is fiction, fiction number is recorded in this attribute.</comment>
+<ownerDesignName>Assingment1</ownerDesignName>
+<engineerTo>
+<item key="918D1B8A-23C8-7065-A889-77DB5428F4E5" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<listOfValues>
+<valueDef value="1" description=""/>
+<valueDef value="10" description=""/>
+<valueDef value="11" description=""/>
+<valueDef value="12" description=""/>
+<valueDef value="13" description=""/>
+<valueDef value="14" description=""/>
+<valueDef value="15" description=""/>
+<valueDef value="16" description=""/>
+<valueDef value="17" description=""/>
+<valueDef value="18" description=""/>
+<valueDef value="19" description=""/>
+<valueDef value="2" description=""/>
+<valueDef value="20" description=""/>
+<valueDef value="21" description=""/>
+<valueDef value="22" description=""/>
+<valueDef value="23" description=""/>
+<valueDef value="24" description=""/>
+<valueDef value="25" description=""/>
+<valueDef value="26" description=""/>
+<valueDef value="27" description=""/>
+<valueDef value="28" description=""/>
+<valueDef value="29" description=""/>
+<valueDef value="3" description=""/>
+<valueDef value="30" description=""/>
+<valueDef value="4" description=""/>
+<valueDef value="5" description=""/>
+<valueDef value="6" description=""/>
+<valueDef value="7" description=""/>
+<valueDef value="8" description=""/>
+<valueDef value="9" description=""/>
+</listOfValues>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CallNo" id="28DD4FD0-A9F6-250A-8989-1EE89AC54E6D">
+<createdBy>Y500</createdBy>
+<createdTime>2018-04-21 06:05:43 UTC</createdTime>
+<comment>Book dewey call number is recorded in this attribute.</comment>
+<generatorID>B66CEE0C-6161-2537-BFBC-5546CE72D058</generatorID>
+<ownerDesignName>Assingment1</ownerDesignName>
+<engineerTo>
+<item key="918D1B8A-23C8-7065-A889-77DB5428F4E5" value="true"/>
+</engineerTo>
+<referedAttribute>98EA59F3-124B-7F5D-6FF7-238350C095BE</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="EF65965A-6233-1F7A-64FC-A652F5D718AB" name="FICTIONNUMBER PK">
+<createdBy>Y500</createdBy>
+<createdTime>2018-04-21 06:05:43 UTC</createdTime>
+<ownerDesignName>Assingment1</ownerDesignName>
+<engineerTo>
+<item key="918D1B8A-23C8-7065-A889-77DB5428F4E5" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>28DD4FD0-A9F6-250A-8989-1EE89AC54E6D</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,95 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="03816F35-7FBB-9FBF-99AB-D577A2859E80" name="RESERVE">
+<createdBy>Y500</createdBy>
+<createdTime>2018-04-21 08:18:17 UTC</createdTime>
+<generatorID>8A20EBFD-E6D0-56A8-0DF4-41F31C2FDD9E</generatorID>
+<ownerDesignName>Assingment1</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ReservationDate" id="DEA3ED4F-2781-EA9F-D6F5-C3AD6B29583E">
+<createdBy>Y500</createdBy>
+<createdTime>2018-04-21 08:18:17 UTC</createdTime>
+<comment>Book reservation date is recorded in this attribute.</comment>
+<generatorID>AC5FC300-760B-29E5-029E-51E4AF989917</generatorID>
+<ownerDesignName>Assingment1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="BURROWER_Burrowerid" id="F0C25445-2891-F343-CD95-B45FFC4114A3">
+<createdBy>Y500</createdBy>
+<createdTime>2018-04-21 08:18:17 UTC</createdTime>
+<comment>Burrower id is recorded in this attribute.</comment>
+<generatorID>3154CA09-CA26-7914-3098-33EF3CA9FECC</generatorID>
+<ownerDesignName>Assingment1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="184066EF-EC5F-753B-270B-8B1AEAE20424" referredColumn="7B338B92-E2F7-6235-2CB1-B779FBF7558B"/>
+</associations>
+</Column>
+<Column name="BOOKCOPY_BarcodeNo" id="D4568E24-D79C-96E3-F2E2-8C62BF8A2BA9">
+<createdBy>Y500</createdBy>
+<createdTime>2018-04-21 08:18:17 UTC</createdTime>
+<comment>Book barcode number is recorded in this attribute.</comment>
+<generatorID>B3019E5E-604A-D807-F03C-D76429DCFAFD</generatorID>
+<ownerDesignName>Assingment1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>20</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="EAC2442F-07FC-BE52-F2DE-9F7C4421D5F0" referredColumn="35779FAF-D590-871E-2FF5-248EF72B8F3A"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="026D82E5-CB0F-F12D-A192-11A127306324" name="RESERVE_PK">
+<createdBy>Y500</createdBy>
+<createdTime>2018-04-21 08:18:17 UTC</createdTime>
+<generatorID>D5E60471-6030-5FB9-A32F-3ACAE76E0103</generatorID>
+<ownerDesignName>Assingment1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F0C25445-2891-F343-CD95-B45FFC4114A3"/>
+<colUsage columnID="D4568E24-D79C-96E3-F2E2-8C62BF8A2BA9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1DCF1ACE-55F2-4678-ECBE-BEEFD780F014" name="RESERVE_BOOKCOPY_FK">
+<createdBy>Y500</createdBy>
+<createdTime>2018-04-21 08:18:17 UTC</createdTime>
+<generatorID>49BA31CC-7468-73BC-5571-71F460BFBCA9</generatorID>
+<ownerDesignName>Assingment1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D4568E24-D79C-96E3-F2E2-8C62BF8A2BA9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A9DF2DDD-3D82-11E7-3A6C-329BCCC1F311" name="RESERVE_BURROWER_FK">
+<createdBy>Y500</createdBy>
+<createdTime>2018-04-21 08:18:17 UTC</createdTime>
+<generatorID>57A0C82F-1D2C-3F71-A232-1DF88946BA34</generatorID>
+<ownerDesignName>Assingment1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F0C25445-2891-F343-CD95-B45FFC4114A3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

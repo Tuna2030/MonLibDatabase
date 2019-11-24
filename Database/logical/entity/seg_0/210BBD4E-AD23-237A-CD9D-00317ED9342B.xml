@@ -1,0 +1,111 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="210BBD4E-AD23-237A-CD9D-00317ED9342B" name="LATEDELIVERY">
+<createdBy>Y500</createdBy>
+<createdTime>2018-04-20 00:37:50 UTC</createdTime>
+<ownerDesignName>Assingment1</ownerDesignName>
+<engineerTo>
+<item key="1934C1CF-5D9D-781F-1A35-70BF0721B59E" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="PaymentDate" id="2D4EFB66-8E1E-0F96-501C-A1FFDC492BF4">
+<createdBy>Y500</createdBy>
+<createdTime>2018-04-20 00:37:58 UTC</createdTime>
+<comment>If burrower does not return the loaned book before due date, burrower will be informed about the latest fine payment date. Payment date is recorded in this attribute.</comment>
+<ownerDesignName>Assingment1</ownerDesignName>
+<engineerTo>
+<item key="1934C1CF-5D9D-781F-1A35-70BF0721B59E" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Amount" id="C60B7DC6-C8CB-E831-6622-9CFB98B2E0F9">
+<createdBy>Y500</createdBy>
+<createdTime>2018-04-20 00:39:52 UTC</createdTime>
+<comment>If burrower does not return the loaned book before due date, burrower will be informed about the latest fine payment date. Payment amount is recorded in this attribute.</comment>
+<ownerDesignName>Assingment1</ownerDesignName>
+<engineerTo>
+<item key="1934C1CF-5D9D-781F-1A35-70BF0721B59E" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,8,2</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Loanid" id="5B0FB14F-EE52-2454-842B-C30FF4941F0D">
+<createdBy>Y500</createdBy>
+<createdTime>2018-04-21 06:27:05 UTC</createdTime>
+<comment>Loan  id is recorded in this attribute when a burrower loans a book.</comment>
+<generatorID>0C9541FD-7357-95DD-FB38-516635FF0B8A</generatorID>
+<ownerDesignName>Assingment1</ownerDesignName>
+<engineerTo>
+<item key="1934C1CF-5D9D-781F-1A35-70BF0721B59E" value="true"/>
+</engineerTo>
+<referedAttribute>F019B76D-504F-E0AE-CFDB-EC434C88A11D</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>20</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Burrowerid" id="12867ECF-3087-A68D-9F11-F44C8B58669C">
+<createdBy>Y500</createdBy>
+<createdTime>2018-04-21 06:27:05 UTC</createdTime>
+<comment>Burrower id is recorded in this attribute.</comment>
+<generatorID>0C9541FD-7357-95DD-FB38-516635FF0B8A</generatorID>
+<ownerDesignName>Assingment1</ownerDesignName>
+<engineerTo>
+<item key="1934C1CF-5D9D-781F-1A35-70BF0721B59E" value="true"/>
+</engineerTo>
+<referedAttribute>A6CA458E-6959-235B-5427-F1D964F897F7</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CallNo" id="AAF1EF81-D7AA-9076-0CA7-F1293B2E67D0">
+<createdBy>Y500</createdBy>
+<createdTime>2018-04-21 06:27:05 UTC</createdTime>
+<comment>Book dewey call number is recorded in this attribute.</comment>
+<generatorID>0C9541FD-7357-95DD-FB38-516635FF0B8A</generatorID>
+<ownerDesignName>Assingment1</ownerDesignName>
+<engineerTo>
+<item key="1934C1CF-5D9D-781F-1A35-70BF0721B59E" value="true"/>
+</engineerTo>
+<referedAttribute>5F73D4F9-5650-9349-6001-957926FC7C9A</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="27396024-4B4F-A602-8B33-86A21B5D79F2" name="LATEDELIVERY PK">
+<createdBy>Y500</createdBy>
+<createdTime>2018-04-21 06:27:05 UTC</createdTime>
+<ownerDesignName>Assingment1</ownerDesignName>
+<engineerTo>
+<item key="1934C1CF-5D9D-781F-1A35-70BF0721B59E" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>5B0FB14F-EE52-2454-842B-C30FF4941F0D</attributeRef>
+<attributeRef>12867ECF-3087-A68D-9F11-F44C8B58669C</attributeRef>
+<attributeRef>AAF1EF81-D7AA-9076-0CA7-F1293B2E67D0</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

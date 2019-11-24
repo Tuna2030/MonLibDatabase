@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Title_Subject_Rel2" directorySegmentName="seg_0" id="B97A1BA1-70F7-7F0F-AC75-78E1831499ED">
+<createdBy>Y500</createdBy>
+<createdTime>2018-04-21 05:59:03 UTC</createdTime>
+<comment>A title must have one or many subjects.&lt;br/&gt;A subject must have one or many titles.</comment>
+<ownerDesignName>Assingment1</ownerDesignName>
+<engineerTo>
+<item key="1934C1CF-5D9D-781F-1A35-70BF0721B59E" value="true"/>
+</engineerTo>
+<sourcePk>A68AF32E-A30F-006C-A3BF-434E89ED6BFF</sourcePk>
+<identifying>true</identifying>
+<nameOnSource>belong</nameOnSource>
+<nameOnTarget>have</nameOnTarget>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>8BD7DA3C-74B0-998B-47AA-1198471F3F19</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>F84433A6-CBA1-74AA-3AB4-03F2D38DE983</targetEntity>
+<transferable>true</transferable>
+</Relation>

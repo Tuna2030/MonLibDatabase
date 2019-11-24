@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Manager_HomeBranch_Rel" directorySegmentName="seg_0" id="607C868B-FEA2-C002-45C8-926D993B2507">
+<createdBy>Y500</createdBy>
+<createdTime>2018-04-21 05:40:43 UTC</createdTime>
+<comment>A manager must have one home branch.&lt;br/&gt;A branch may have home branched by zero or many managers.</comment>
+<ownerDesignName>Assingment1</ownerDesignName>
+<engineerTo>
+<item key="1934C1CF-5D9D-781F-1A35-70BF0721B59E" value="true"/>
+</engineerTo>
+<sourcePk>E81423D5-3E94-D007-53F8-A89786EE6133</sourcePk>
+<identifying>false</identifying>
+<nameOnSource>home</nameOnSource>
+<nameOnTarget>is homed</nameOnTarget>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>FFCDB88E-AD83-0B25-5DA5-0A8197BCA75E</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>75FE2770-70BC-A1DC-D33E-2A15B50ED953</targetEntity>
+<transferable>true</transferable>
+</Relation>

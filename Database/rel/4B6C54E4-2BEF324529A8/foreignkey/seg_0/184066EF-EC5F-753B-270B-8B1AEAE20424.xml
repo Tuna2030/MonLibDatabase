@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="184066EF-EC5F-753B-270B-8B1AEAE20424" containerWithKeyObject="03816F35-7FBB-9FBF-99AB-D577A2859E80" localFKIndex="A9DF2DDD-3D82-11E7-3A6C-329BCCC1F311" name="RESERVE_BURROWER_FK">
+<createdBy>Y500</createdBy>
+<createdTime>2018-04-21 08:18:17 UTC</createdTime>
+<comment>A Burrower can make zero or many reservations.&lt;br/&gt;A reservation must be maden by only one burrower.</comment>
+<generatorID>57A0C82F-1D2C-3F71-A232-1DF88946BA34</generatorID>
+<ownerDesignName>Assingment1</ownerDesignName>
+<referredTableLongName>BURROWER</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>BB3616BE-2965-D5FC-0C27-C42B36A44DF4</referredTableID>
+<keyObject>9C376B0F-D1BD-BB85-F8EE-6F20BDD8A1C4</keyObject>
+<referredKeyID>9C376B0F-D1BD-BB85-F8EE-6F20BDD8A1C4</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>Burrowerid</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

@@ -1,0 +1,66 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="DA03BFDC-10B4-D8E4-BD50-54F35E7EB077" name="CLASSIFICATION">
+<createdBy>Y500</createdBy>
+<createdTime>2018-04-20 00:23:11 UTC</createdTime>
+<ownerDesignName>Assingment1</ownerDesignName>
+<engineerTo>
+<item key="1934C1CF-5D9D-781F-1A35-70BF0721B59E" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Classid" id="E2BBF732-93DD-A347-675D-AFBCA0404893">
+<createdBy>Y500</createdBy>
+<createdTime>2018-04-21 06:13:22 UTC</createdTime>
+<comment>Classification id is stored in this attribute.</comment>
+<ownerDesignName>Assingment1</ownerDesignName>
+<engineerTo>
+<item key="1934C1CF-5D9D-781F-1A35-70BF0721B59E" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>1</dataTypePrecision>
+<ownDataTypeParameters>,1,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Class" id="535394B9-66CD-7DF7-E68A-693D3A7926BF">
+<createdBy>Y500</createdBy>
+<createdTime>2018-04-20 00:23:22 UTC</createdTime>
+<comment>Burrower classification will be recorded in this attribute. Classification can only be junior, adult or organisation.</comment>
+<ownerDesignName>Assingment1</ownerDesignName>
+<engineerTo>
+<item key="1934C1CF-5D9D-781F-1A35-70BF0721B59E" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>12</dataTypeSize>
+<listOfValues>
+<valueDef value="Adult" description=""/>
+<valueDef value="Junior" description=""/>
+<valueDef value="Organisation" description=""/>
+</listOfValues>
+<ownDataTypeParameters>12,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="AF9373B8-4B90-2A5D-B728-7A601BF6E2F3" name="CLASSIFICATION PK">
+<createdBy>Y500</createdBy>
+<createdTime>2018-04-21 06:11:18 UTC</createdTime>
+<ownerDesignName>Assingment1</ownerDesignName>
+<engineerTo>
+<item key="1934C1CF-5D9D-781F-1A35-70BF0721B59E" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>E2BBF732-93DD-A347-675D-AFBCA0404893</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

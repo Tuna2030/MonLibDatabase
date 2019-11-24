@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="96698728-F62E-9DBF-A849-513F16D65239" containerWithKeyObject="50037C66-0858-B5C6-754D-A039D74DD13D" localFKIndex="9DA6F882-979D-A01A-A29B-C53A9A649F31" name="LATEDELIVERY_LOAN_FK">
+<createdBy>Y500</createdBy>
+<createdTime>2018-04-21 08:18:17 UTC</createdTime>
+<comment>A loan may have zero or one late deliveries.&lt;br/&gt;A late delivery must have only one loan.</comment>
+<generatorID>0C9541FD-7357-95DD-FB38-516635FF0B8A</generatorID>
+<ownerDesignName>Assingment1</ownerDesignName>
+<referredTableLongName>LOAN</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>7341858D-E16C-C4D0-ABD2-B362A59CE7B8</referredTableID>
+<keyObject>FBE2F394-7E2D-00D3-E7E3-68E80CB11883</keyObject>
+<referredKeyID>FBE2F394-7E2D-00D3-E7E3-68E80CB11883</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>Loanid,BURROWER_Burrowerid,TITLE_CallNo</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

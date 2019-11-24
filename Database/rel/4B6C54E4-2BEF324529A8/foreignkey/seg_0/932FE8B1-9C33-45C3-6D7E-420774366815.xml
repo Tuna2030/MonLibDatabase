@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="932FE8B1-9C33-45C3-6D7E-420774366815" containerWithKeyObject="1A5C6541-504E-11BA-D94E-BE6814F3B173" localFKIndex="373F0E37-E33A-068A-963E-37C4C32CF7B2" name="BRANCH_MANAGER_FK">
+<createdBy>Y500</createdBy>
+<createdTime>2018-04-21 08:18:17 UTC</createdTime>
+<comment>A manager can manage one or many branches.&lt;br/&gt;A branch must be managed by one manager.</comment>
+<generatorID>9242FCF5-B227-2A64-9C12-79C814F571C8</generatorID>
+<ownerDesignName>Assingment1</ownerDesignName>
+<referredTableLongName>MANAGER</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>B1265489-37EB-4A2B-DEE4-F085AF3197A8</referredTableID>
+<keyObject>77FACA87-EB4F-0C31-7AD3-4DD2843B1BEE</keyObject>
+<referredKeyID>77FACA87-EB4F-0C31-7AD3-4DD2843B1BEE</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>Managerid</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

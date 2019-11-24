@@ -1,0 +1,68 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="F84433A6-CBA1-74AA-3AB4-03F2D38DE983" name="SubjectTitle">
+<createdBy>Y500</createdBy>
+<createdTime>2018-04-21 05:47:48 UTC</createdTime>
+<ownerDesignName>Assingment1</ownerDesignName>
+<engineerTo>
+<item key="4B6C54E4-81BA-DE9A-BFA9-2BEF324529A8" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="CallNo" id="7F9CDF5F-12BE-5DA3-4549-29B5BF735092">
+<createdBy>Y500</createdBy>
+<createdTime>2018-04-21 05:56:46 UTC</createdTime>
+<comment>Book dewey call number is recorded in this attribute.</comment>
+<generatorID>4DDAEE97-5071-33C5-B163-94AC4BD2705B</generatorID>
+<ownerDesignName>Assingment1</ownerDesignName>
+<engineerTo>
+<item key="4B6C54E4-81BA-DE9A-BFA9-2BEF324529A8" value="true"/>
+</engineerTo>
+<referedAttribute>98EA59F3-124B-7F5D-6FF7-238350C095BE</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="SubjectName" id="F7DC3D66-AF67-106E-13F6-08B405058939">
+<createdBy>Y500</createdBy>
+<createdTime>2018-04-21 06:48:27 UTC</createdTime>
+<comment>Book subjects are recorded in this attribute.</comment>
+<generatorID>B97A1BA1-70F7-7F0F-AC75-78E1831499ED</generatorID>
+<ownerDesignName>Assingment1</ownerDesignName>
+<engineerTo>
+<item key="4B6C54E4-81BA-DE9A-BFA9-2BEF324529A8" value="true"/>
+</engineerTo>
+<referedAttribute>B067C097-CAD7-86B7-7D87-267250C43990</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="2ACD5BF1-486D-35BD-9883-09543210141D" name="SubjectTitle PK">
+<createdBy>Y500</createdBy>
+<createdTime>2018-04-21 05:56:46 UTC</createdTime>
+<ownerDesignName>Assingment1</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="4B6C54E4-81BA-DE9A-BFA9-2BEF324529A8" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<newElementsIDs>4DDAEE97-5071-33C5-B163-94AC4BD2705B,B97A1BA1-70F7-7F0F-AC75-78E1831499ED</newElementsIDs>
+<usedAttributes>
+<attributeRef>7F9CDF5F-12BE-5DA3-4549-29B5BF735092</attributeRef>
+<attributeRef>F7DC3D66-AF67-106E-13F6-08B405058939</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Book_Reserve_Rel" directorySegmentName="seg_0" id="49BA31CC-7468-73BC-5571-71F460BFBCA9">
+<createdBy>Y500</createdBy>
+<createdTime>2018-04-21 06:19:58 UTC</createdTime>
+<comment>A Book copy can belong to zero or many reservation.&lt;br/&gt;A Reservation must have only one book copy.</comment>
+<ownerDesignName>Assingment1</ownerDesignName>
+<engineerTo>
+<item key="1934C1CF-5D9D-781F-1A35-70BF0721B59E" value="true"/>
+</engineerTo>
+<sourcePk>0DA29F16-D1FD-A55B-B8BB-D92B0DF86AB4</sourcePk>
+<identifying>true</identifying>
+<nameOnSource>belong</nameOnSource>
+<nameOnTarget>have</nameOnTarget>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>4005FDC9-5C9E-60CD-BB03-268401F3D8DC</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>8A20EBFD-E6D0-56A8-0DF4-41F31C2FDD9E</targetEntity>
+<transferable>true</transferable>
+</Relation>

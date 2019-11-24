@@ -1,0 +1,83 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B92E88F7-6D8F-B6BE-B723-6F05CCFAF0C0" name="SubjectTitle">
+<createdBy>Y500</createdBy>
+<createdTime>2018-04-21 08:18:17 UTC</createdTime>
+<generatorID>F84433A6-CBA1-74AA-3AB4-03F2D38DE983</generatorID>
+<ownerDesignName>Assingment1</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="TITLE_CallNo" id="1D682695-C017-89AF-EEC1-EB73621E10C4">
+<createdBy>Y500</createdBy>
+<createdTime>2018-04-21 08:18:17 UTC</createdTime>
+<comment>Book dewey call number is recorded in this attribute.</comment>
+<generatorID>7F9CDF5F-12BE-5DA3-4549-29B5BF735092</generatorID>
+<ownerDesignName>Assingment1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B05F54CE-4BE2-82CD-0922-A351A7903543" referredColumn="C87DF11E-D6DB-24BA-4CB2-49CC43DC1778"/>
+</associations>
+</Column>
+<Column name="SUBJECT_SubjectName" id="8873F728-7F67-AD6B-2796-25D95FD82C07">
+<createdBy>Y500</createdBy>
+<createdTime>2018-04-21 08:18:17 UTC</createdTime>
+<comment>Book subjects are recorded in this attribute.</comment>
+<generatorID>F7DC3D66-AF67-106E-13F6-08B405058939</generatorID>
+<ownerDesignName>Assingment1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="EB948802-3B83-5AE3-6A3F-DB86B19690A7" referredColumn="ECB90372-72B6-C1A2-D25B-67289BBD4658"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="EF19814F-D6CD-3A9D-5CAF-69D900472B8D" name="SubjectTitle_PK">
+<createdBy>Y500</createdBy>
+<createdTime>2018-04-21 08:18:17 UTC</createdTime>
+<generatorID>2ACD5BF1-486D-35BD-9883-09543210141D</generatorID>
+<ownerDesignName>Assingment1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1D682695-C017-89AF-EEC1-EB73621E10C4"/>
+<colUsage columnID="8873F728-7F67-AD6B-2796-25D95FD82C07"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E5810A9B-9E9C-C054-2673-5BDF250212D9" name="SubjectTitle_TITLE_FK">
+<createdBy>Y500</createdBy>
+<createdTime>2018-04-21 08:18:17 UTC</createdTime>
+<generatorID>4DDAEE97-5071-33C5-B163-94AC4BD2705B</generatorID>
+<ownerDesignName>Assingment1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1D682695-C017-89AF-EEC1-EB73621E10C4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A3427A13-3978-4B80-E0C1-20B74D98C84E" name="SubjectTitle_SUBJECT_FK">
+<createdBy>Y500</createdBy>
+<createdTime>2018-04-21 08:18:17 UTC</createdTime>
+<generatorID>B97A1BA1-70F7-7F0F-AC75-78E1831499ED</generatorID>
+<ownerDesignName>Assingment1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8873F728-7F67-AD6B-2796-25D95FD82C07"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

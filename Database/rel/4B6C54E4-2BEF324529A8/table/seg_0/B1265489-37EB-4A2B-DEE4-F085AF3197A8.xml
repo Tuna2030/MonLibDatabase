@@ -1,0 +1,106 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B1265489-37EB-4A2B-DEE4-F085AF3197A8" name="MANAGER">
+<createdBy>Y500</createdBy>
+<createdTime>2018-04-21 08:18:17 UTC</createdTime>
+<generatorID>75FE2770-70BC-A1DC-D33E-2A15B50ED953</generatorID>
+<ownerDesignName>Assingment1</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Managerid" id="744FDF2C-735F-BD80-73BD-DF142A644C83">
+<createdBy>Y500</createdBy>
+<createdTime>2018-04-21 08:18:17 UTC</createdTime>
+<comment>Manager id is recorded in this attribute.</comment>
+<generatorID>1AF41EF5-0F1A-0753-B2E7-8DECDB49CAC0</generatorID>
+<ownerDesignName>Assingment1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ManagerName" id="EF090D47-466A-300A-6187-AAD46AE51BB1">
+<createdBy>Y500</createdBy>
+<createdTime>2018-04-21 08:18:17 UTC</createdTime>
+<comment>Manager name is recorded in this attribute.</comment>
+<generatorID>788F6E21-DE8D-F373-E158-2AB8EE255897</generatorID>
+<ownerDesignName>Assingment1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25</dataTypeSize>
+<ownDataTypeParameters>25,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ManagerSurname" id="E645E6CC-EF85-7F21-5773-5A22C57786FF">
+<createdBy>Y500</createdBy>
+<createdTime>2018-04-21 08:18:17 UTC</createdTime>
+<comment>Manager surname is recorded in this attribute.</comment>
+<generatorID>25C4A823-248A-0ABC-E32B-A843C2097F60</generatorID>
+<ownerDesignName>Assingment1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ManagerPhone" id="DE78509B-B9C0-0FFE-4D6D-D05B2C2133EB">
+<createdBy>Y500</createdBy>
+<createdTime>2018-04-21 08:18:17 UTC</createdTime>
+<comment>Manager phone is recorded in this attribute.</comment>
+<generatorID>79C86D2F-B913-7774-78F0-64AD9C7F79A6</generatorID>
+<ownerDesignName>Assingment1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>13</dataTypeSize>
+<ownDataTypeParameters>13,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="BRANCH_Branchid" id="AD6EFD84-4C07-D12E-FF8B-24A57F8B10A4">
+<createdBy>Y500</createdBy>
+<createdTime>2018-04-21 08:18:17 UTC</createdTime>
+<comment>Each brach has unique branchid which starts from 100 and increments by 1 for each new row.</comment>
+<generatorID>CAABA35C-9E47-BAEC-DA19-F0FAA4FFE1B9</generatorID>
+<ownerDesignName>Assingment1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2FA6B847-F6D0-149B-744B-4F63E28D6B1B" referredColumn="F62479CD-CF43-2300-ED27-1C64BD30F888"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="77FACA87-EB4F-0C31-7AD3-4DD2843B1BEE" name="MANAGER_PK">
+<createdBy>Y500</createdBy>
+<createdTime>2018-04-21 08:18:17 UTC</createdTime>
+<generatorID>8D2A69D2-F5E6-BF13-D0FF-F373B4C3C4A6</generatorID>
+<ownerDesignName>Assingment1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="744FDF2C-735F-BD80-73BD-DF142A644C83"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4B3EDAF2-B2E0-87CE-5688-66F362FE262C" name="MANAGER_BRANCH_FK">
+<createdBy>Y500</createdBy>
+<createdTime>2018-04-21 08:18:17 UTC</createdTime>
+<generatorID>607C868B-FEA2-C002-45C8-926D993B2507</generatorID>
+<ownerDesignName>Assingment1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AD6EFD84-4C07-D12E-FF8B-24A57F8B10A4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
